@@ -41,12 +41,13 @@ Amazon CloudWatch: Execution log inspector and metric alarm for failure tracking
 
 AWS CloudTrail: Management event logger tracking account API operations to S3.
 
-📸 Implementation Proof
-1. DynamoDB Data Ingestion
-<img width="1917" height="1008" alt="dynamodb-output png" src="https://github.com/user-attachments/assets/b6d40ae8-2fdd-47a9-90be-9862c46c7c6a" />
+## 📸 Implementation Proof
 
-2. Real-Time Email Notification
-<img width="1917" height="950" alt="sns-alert png" src="https://github.com/user-attachments/assets/f9cac91c-68cd-4783-ae81-28e1d24c72bc" />
+### 1. DynamoDB Data Ingestion
+![DynamoDB Output](sample_data/dynamodb-output.png.png)
+
+### 2. Real-Time Email Notification
+![SNS Alert](sample_data/sns-alert.png.png)
 
 📄 Sample Input (sample_data/test.csv)
 id,name,value
