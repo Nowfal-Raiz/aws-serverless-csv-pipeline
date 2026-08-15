@@ -49,7 +49,9 @@ AWS CloudTrail: Management event logger tracking account API operations to S3.
 ### 2. Real-Time Email Notification
 ![SNS Alert](sample_data/sns-alert.png.png)
 
-📄 Sample Input (sample_data/test.csv)
+## 📄 Sample Input (`sample_data/test.csv`)
+
+```csv
 id,name,value
 101,Alpha,10
 102,Beta,20
