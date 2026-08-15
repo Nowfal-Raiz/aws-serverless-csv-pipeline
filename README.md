@@ -1,3 +1,4 @@
+
 # ☁️ Event-Driven AWS Serverless File Processing & Auditing Pipeline
 
 An automated end-to-end data processing and security pipeline built on **AWS** within **Free Tier** limits. The system automatically ingests CSV uploads, processes data via a serverless execution environment, persists items to a NoSQL database, sends real-time email notifications, and logs administrative audit events.
@@ -44,10 +45,10 @@ AWS CloudTrail: Management event logger tracking account API operations to S3.
 ## 📸 Implementation Proof
 
 ### 1. DynamoDB Data Ingestion
-<img src="sample_data/dynamodb-output.png.png" width="800" alt="DynamoDB Output" />
+<img width="1917" height="1008" alt="dynamodb-output png" src="https://github.com/user-attachments/assets/6db845b7-f10f-47ce-8a3c-541694bb9b93" />
 
 ### 2. Real-Time Email Notification
-<img src="sample_data/sns-alert.png.png" width="800" alt="SNS Alert" />
+<img width="1917" height="950" alt="sns-alert png" src="https://github.com/user-attachments/assets/3d54a7bb-698e-4bd3-ae87-518ff6c65158" />
 
 ## 📄 Sample Input (`sample_data/test.csv`)
 
