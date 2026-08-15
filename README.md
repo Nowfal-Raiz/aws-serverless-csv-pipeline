@@ -44,10 +44,10 @@ AWS CloudTrail: Management event logger tracking account API operations to S3.
 ## 📸 Implementation Proof
 
 ### 1. DynamoDB Data Ingestion
-![DynamoDB Output](sample_data/dynamodb-output.png.png)
+<img src="sample_data/dynamodb-output.png.png" width="800" alt="DynamoDB Output" />
 
 ### 2. Real-Time Email Notification
-![SNS Alert](sample_data/sns-alert.png.png)
+<img src="sample_data/sns-alert.png.png" width="800" alt="SNS Alert" />
 
 ## 📄 Sample Input (`sample_data/test.csv`)
 
@@ -56,7 +56,6 @@ id,name,value
 101,Alpha,10
 102,Beta,20
 103,Gamma,30
-
 
 
 
